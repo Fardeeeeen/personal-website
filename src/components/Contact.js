@@ -91,5 +91,5 @@ export const Contact = () => {
         </Row>
       </Container>
     </section>
-  )
+  );
 }

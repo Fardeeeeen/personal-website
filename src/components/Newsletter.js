@@ -42,5 +42,5 @@ export const Newsletter = ({ status, message, onValidated }) => {
           </Row>
         </div>
       </Col>
-  )
+  );
 }

@@ -18,15 +18,5 @@ export const MailchimpForm = () => {
         )}
         />
     </>
-  )
+  );
 }
-
-
-
-
-
-
-
-
-
-

@@ -14,6 +14,7 @@ const CertificationCard = ({ certification }) => {
       </div>
     </div>
   );
-};
+}
+
 
 export default CertificationCard;

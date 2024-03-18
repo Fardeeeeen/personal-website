@@ -30,4 +30,4 @@ export const ProjectCard = ({ title, description, imgUrl, source }) => {
 </motion.div>
     </Col>
   );
-};
+}

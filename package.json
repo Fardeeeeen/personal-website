@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage":"http://fardeeeeen.github.io/My-Porfolio",
-=======
-  "homepage": "http://Fardeeeeen.github.io/My-Portfolio",
->>>>>>> origin/main
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -33,13 +29,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-=======
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
->>>>>>> origin/main
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -61,14 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
     },
-=======
-  },
->>>>>>> origin/main
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
 }
-
-

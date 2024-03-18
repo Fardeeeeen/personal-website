@@ -1,0 +1,74 @@
+[33mcommit ca95186cca0c119499020d8ababab0e7906db113[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Fardeen <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 18:01:35 2024 +0530
+
+    json
+
+[33mcommit 3c92fe2eb759a6e80518402958551812bcd223bc[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 52149f5 b29057d
+Author: Fardeen <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 17:54:13 2024 +0530
+
+    merge
+
+[33mcommit 52149f5cebb932a05e3937b6f50761c24ea31f7c[m
+Author: Fardeen <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 17:32:12 2024 +0530
+
+    react
+
+[33mcommit b29057d7d1190917b8b3dd085194a79efc3bf95c[m[33m ([m[1;31mmain/main[m[33m)[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 16:48:06 2024 +0530
+
+    Add files via upload
+
+[33mcommit 309ef51a84712fb01178dc8fcaf2cf491c445a5e[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 16:43:34 2024 +0530
+
+    Delete style.css
+
+[33mcommit ee373bd42ba0c00f512cb93a2d5bf929aa9b9777[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 16:43:18 2024 +0530
+
+    Delete index.html
+
+[33mcommit ec82ae79eadaa848ee2a3193096a98d178ec1ad8[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 16:42:49 2024 +0530
+
+    Delete resume directory
+
+[33mcommit a565c78459069d81ad5d54e343b52829d921d89b[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Mon Mar 18 16:42:36 2024 +0530
+
+    Delete images directory
+
+[33mcommit 9fd75aa08d6737c209ac0ab23448f5f09ee6cdc2[m
+Author: Fardeen <fardeenzubair@gmail.com>
+Date:   Tue Mar 12 15:51:54 2024 +0530
+
+    Initialize project using Create React App
+
+[33mcommit 981fa0f1a7eeba7ae3d04197a8e3f5f7847474b7[m
+Author: Fardeen Zubair <fardeenzubair@gmail.com>
+Date:   Thu Feb 15 15:35:40 2024 +0530
+
+    Updated(1) index.html
+    
+    linkedin link changed
+
+[33mcommit eb86d9efe88f0853d9e61602cf9e63580dbe7233[m
+Author: Fardeeeeen <149067840+Fardeeeeen@users.noreply.github.com>
+Date:   Wed Nov 8 04:02:35 2023 +0530
+
+    Add files via upload
+
+[33mcommit 355a64109f8722e194b52ada087bddf0c219065e[m
+Author: Fardeeeeen <149067840+Fardeeeeen@users.noreply.github.com>
+Date:   Wed Nov 8 04:00:42 2023 +0530
+
+    Initial commit

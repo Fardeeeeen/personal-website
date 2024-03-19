@@ -11,12 +11,12 @@ const [loopNum, setLoopNum] = useState(0);
 const [isDeleting, setIsDeleting] = useState(false);
 const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
 const [text, setText] = useState('');
-const [delta, setDelta] = useState(300 - Math.random() * 100);
+const [delta, setDelta] = useState(100);
 const period = 2000;
 
 const handleDownloadResume = () => {
   // Open the resume link in a new tab
-  window.open('https://drive.google.com/file/d/1xNU5LE3jDCz_CTR9oerTMLiIwiCgwd_E/view?usp=drive_link', '_blank');
+  window.open('https://drive.google.com/file/d/1xNU5LE3jDCz_CTR9oerTMLiIwiCgwd_E/view?usp=sharing', '_blank');
   // Download the resume
   const anchor = document.createElement('a');
   anchor.href = 'https://drive.google.com/uc?export=download&id=1xNU5LE3jDCz_CTR9oerTMLiIwiCgwd_E';
@@ -31,7 +31,7 @@ useEffect(() => {
     }, delta);
 
     return() => { clearInterval(ticker)};
-    }, [text])
+    }, [text, delta])
 
 const tick = () => {
     let i = loopNum % toRotate.length;
@@ -50,7 +50,7 @@ const tick = () => {
     }else if (isDeleting && updatedText === ''){
         setIsDeleting(false);
         setLoopNum(loopNum + 1);
-        setDelta(500);
+        setDelta(100);
         }
     }
 
@@ -63,7 +63,7 @@ const tick = () => {
             {({ isVisible }) => (
               <div id="ban" className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi, I'm Fardeen `}</h1>
-                 <h2 className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><h2>{text}</h2></h2>
+                 <h2 className="txt-rotate" dataPeriod="500" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><h2>{text}</h2></h2>
                 <div className="d-block d-md-none">
                   <img src={headerImg} alt="Header Img" />
                 </div>
